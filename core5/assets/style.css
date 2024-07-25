@@ -1,0 +1,157 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    background-color: #333333;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration-line: none;
+    text-decoration: none;
+    width: 1250px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.menu li {
+    margin: 0 15px;
+}
+.logo{
+    margin-left: 30px;
+}
+.boton{
+    margin-right: 30px;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+    background-color:#00bcd4;
+    height: 100px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-top: -50px;
+    margin-left: 20px;
+    border: 3px solid white;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+p {
+    color: #777;
+}
+
+button {
+    background-color: #f5f5f5;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00c9d4;
+}
+
+h1{
+    margin-top: -5px;
+}
+.education {
+    padding: 0 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+.perfil{
+    padding: 0 30px 30px 30px;
+}
+.left {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 20px;
+    width: 50%;
+}
+.right{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 30%;
+}
+
+.solicitudes {
+    padding: 0 30px 30px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.conexiones {
+    padding: 0 30px 30px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+.connection img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border:3px solid  #00c9d4;
+}
+
+.solicitudes button {
+    margin-left: auto;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
+    color:hotpink;
+    border: 2px solid hotpink;
+    border-radius: 100%;
+    justify-content: end;
+}
+.connection{
+    display:flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+.AR{
+    margin-left: 40px;
+}
+.friends img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.friends{
+    display:flex;
+    margin: 5px;
+}
+.main {
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px;
+}
